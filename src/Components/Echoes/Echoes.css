@@ -1,0 +1,28 @@
+.echoes{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.highlights{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.highlights img{
+    display: flex;
+    width: 23%;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+/* --------------media query---------------- */
+@media (max-width: 800px) {
+    .highlights{
+        flex-wrap: wrap;
+    }
+    .highlights img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}

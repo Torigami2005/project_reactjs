@@ -27,6 +27,7 @@ const Comments = () => {
         slider.current.style.transform = `translateX(${tx}%)`;
     }
 
+
   return (
  <div className='comments'>
     <button className='next-btn' onClick={slideForward}><RxTrackNext/></button>
@@ -38,7 +39,7 @@ const Comments = () => {
                     <div className="user-info">
                         <img src={user_1} alt="" />
                         <h3>Bernarose A. Villegas</h3>
-                        <span>1st Year BS Computer Science</span>
+                        <span>1st Year BS Computer Science Math</span>
                         <p>Echoes does not only deliver music but also connects with people when performing.</p>
                     </div>
                 </div>

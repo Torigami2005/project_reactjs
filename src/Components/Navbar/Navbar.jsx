@@ -40,7 +40,7 @@ const Navbar = () => {
             <li><Link to='programs' smooth={true} offset={-260} duration={500}>Programs</Link></li>
             <li><Link to='about' smooth={true} offset={-150} duration={500}>About us</Link></li>
             <li><Link to='echoes' smooth={true} offset={-260} duration={500}>Highlights</Link></li>
-            <li><Link to='comments' smooth={true} offset={-260} duration={500}>Comments</Link></li>
+            <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Comments</Link></li>
             <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'> Contact us</Link></li>
         </ul>
         <h1 onClick={toggleMenu}><CiMenuBurger /></h1>

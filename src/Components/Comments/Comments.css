@@ -1,102 +1,129 @@
-.comments{
+.testimonials{
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
 }
-.next-btn, .back-btn{
+
+.next, .back{
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
     padding: 15px;
-    width: 50px;
+    width: 55px;
     border-radius: 50%;
     cursor: pointer;
-    background: #24134A;
-    color: #fff;
+    color: #212EA0;
 }
-.back-btn{
+
+.back{
     right: auto;
     left: 0;
+    margin-left: 10px;
 }
+
 .slider{
     overflow: hidden;
 }
+
 .slider ul{
     display: flex;
-    width: 200%;
+    width: 350%;
     overflow-x: hidden;
     transition: 0.5s;
-    transform: translateX(-25%);
 }
+
 .slider ul li{
     list-style: none;
     width: 50%;
-    padding: 20px;
+    padding: 30px;
 }
+
 .slide{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     padding: 40px;
     border-radius: 10px;
-    color: #24134A;
+    color: #676767;
     line-height: 1.4;
+    margin-left: 45px;
+    margin-right: -45px;
 }
+
 .slide img{
     width: 65px;
-    height: 65px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 4px solid #24134A;
-    object-fit: cover;
+    border: 4px solid #212EA0;
 }
+
 .user-info{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     font-size: 15px;
 }
-.user-info h3{
-    color: #24134A;
-}
-.user-info p {
-    color: #24134A;
-    font-size: 14px;
-    margin: 0;
-    font-weight: 400;
-    text-align: center;
-}
-/* --------------media query---------------- */
 
-@media (max-width: 800px) {
-    .comments{
+.user-info h3{
+    color: #212EA0;
+}
+
+@media (max-width: 1000px){
+    .testimonials{
         padding: 0 40px;
     }
-    .next-btn, .back-btn{
+
+    .next, .back{
         padding: 10px;
         width: 35px;
     }
-    .slider ul li{
+
+    .back{
+        margin-left: 10px;
+    }
+
+    .testimonials ul li{
         padding: 10px;
     }
+
     .slide{
         padding: 10px;
+        margin-left: 30px;
+        margin-right: -5px;
     }
+
+    .slider ul{
+        width: 355%;
+    }
+
     .slide img{
         width: 50px;
-        border: 3px solid #24134A;
+        border: 3px solid #212EA0;
     }
+
 }
-@media (max-width: 600px) {
-    .user-info {
+
+
+@media (max-width: 600px){
+    .user-info{
         display: block;
         margin-bottom: 10px;
         font-size: 12px;
     }
-    .user-info h3 {
+
+    .user-info h3{
         font-size: 16px;
-        margin-bottom: 5px;
     }
+
     .slider p{
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .next, .back{
+        padding: 10px;
+        width: 55px;
+    }
+
+    .back{
+        margin-left: 25px;
     }
 }

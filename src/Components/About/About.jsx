@@ -1,7 +1,8 @@
 import React from 'react'
 import './About.css'
 import about from '../../assets/about.jpg'
-import { FaCirclePlay } from "react-icons/fa6";
+import { TfiControlPlay } from "react-icons/tfi";
+
 const About = ({setPlayState}) => {
 
   const handlePlay = () => {
@@ -12,7 +13,7 @@ const About = ({setPlayState}) => {
     <div className='about' >
         <div className="about-left">
             <img src={about} alt="" className='about-img' />
-            <h1 className='play-icon' onClick={handlePlay}><FaCirclePlay/></h1>
+            <h1 className='play-icon' onClick={handlePlay}><TfiControlPlay /></h1>
         </div>
         <div className="about-right">
             <h3>ABOUT ECHOES</h3>
@@ -23,7 +24,7 @@ const About = ({setPlayState}) => {
                 </p>
                 <p>
                 We provide a platform for musically inclined students from the Computer Studies cluster to express themselves, collaborate with fellow artists, and perform in events both within and beyond the university. 
-                Whether you’re a seasoned musician or someone just starting to explore your musical side, Echoes welcomes you to make your sound heard.
+                Whether you're a seasoned musician or someone just starting to explore your musical side, Echoes welcomes you to make your sound heard.
                 </p>
                 <p>
                 Our mission is to celebrate the talent and diversity 

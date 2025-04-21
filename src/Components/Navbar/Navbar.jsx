@@ -43,7 +43,7 @@ const Navbar = () => {
             <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Comments</Link></li>
             <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'> Contact us</Link></li>
         </ul>
-        <h1 onClick={toggleMenu}><CiMenuBurger /></h1>
+        <h1 className='menu-btn'onClick={toggleMenu}><CiMenuBurger /></h1>
     </nav>
   )
 }

@@ -28,10 +28,11 @@ const Programs = () => {
             <img src={program_3} alt="" />
             <div className="caption">
                 <GiGuitar size={60}/>
-                <p>Own Music Videos</p>
+                <p>Music Videos</p>
             </div>
         </div>
     </div>
+    
   )
 }
 
